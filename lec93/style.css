@@ -1,0 +1,159 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.nav-ul
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding:10px 0px ;
+}
+.list-item {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.list-item > a {
+    text-decoration: none;
+    background-color: rgb(17, 20, 20);
+    padding: 10px 7px;
+    display: block;
+    color: white;
+}
+.list-item > a:hover
+{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.container
+{
+    height: auto;
+    width: 85%;
+    background-color:rgb(255, 255, 255);
+    margin:20px  auto;
+    font-family: 'Roboto', sans-serif;
+}
+h1
+{
+    text-align: center;
+
+}
+li > #ancher
+{
+    background-color: rgb(0, 0, 0);
+    display: block;
+}
+body
+{
+    background: url(./bg.jpg) center center/cover;
+}
+
+.box
+{
+    padding: 20px;
+}
+.second-ul,.third-ul
+{    
+padding: 8px 18px;
+}
+.question
+{
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.form1
+{
+    height: 579px;
+    background-color: rgb(1, 51, 34);
+}
+div > input, textarea {
+    width: 384px;
+    outline: none;
+    border: none;
+    background-color: rgb(1, 51, 34);
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 1rem;
+    }
+label
+{
+    display: block;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 10px 0px;
+    color: white;
+}
+button
+{
+    margin: 13px 0px;
+    color: white;
+    padding: 5px 35px;
+    border: 1px solid white;
+    background: transparent;
+}
+
+form {
+    width: 70%;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 37px 0px;
+    }
+    footer
+    {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 30px 0px;
+    
+
+    }
+    footer > p 
+    {
+        font-family: cursive;
+        font-size: 1.5rem;
+    }
+    footer > span
+    {
+        position: relative;
+        /* right: 10px; */
+        left: 14px;
+        line-height: 2rem;
+        font-family: cursive;
+    }
+    
+
+@media screen and  (max-width: 536px) 
+{
+
+    nav
+    {
+    
+    opacity: 0.8;
+    }
+    .nav-ul {
+    flex-direction: column;
+    text-align: center;
+        }
+        .container 
+        {
+            height: auto;
+        }
+        div > input, textarea 
+        {
+            width: 184px;
+        }
+
+}
+ 
